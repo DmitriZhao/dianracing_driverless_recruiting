@@ -14,7 +14,7 @@ aux_source_directory(. DIR_LIB_SRCS)
 add_library(OpencvLib ${DIR_LIB_SRCS})
 
 # 添加链接库
-TARGET_LINK_LIBRARIES(OpencvLib /usr/lib/libopencv_core.so)
-TARGET_LINK_LIBRARIES(OpencvLib /usr/lib/libopencv_highgui.so)
-TARGET_LINK_LIBRARIES(OpencvLib /usr/lib/libopencv_imgcodecs.so)
-TARGET_LINK_LIBRARIES(OpencvLib /usr/lib/libopencv_imgproc.so)
+TARGET_LINK_LIBRARIES(OpencvLib /usr/lib/x86_64-linux-gnu/libopencv_core.so)
+TARGET_LINK_LIBRARIES(OpencvLib /usr/lib/x86_64-linux-gnu/libopencv_highgui.so)
+TARGET_LINK_LIBRARIES(OpencvLib /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so)
+TARGET_LINK_LIBRARIES(OpencvLib /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so)
