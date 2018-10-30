@@ -40,7 +40,7 @@ generate_messages(
 
 ## The catkin_package macro generates cmake config files for your package
 catkin_package(
-  INCLUDE_DIRS include
+  INCLUDE_DIRS
   LIBRARIES dianracing_test
   CATKIN_DEPENDS roscpp std_msgs
   DEPENDS system_lib
